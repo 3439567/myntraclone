@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner Section */
+.banner {
+  background: url('assets/images/banner.jpg') no-repeat center center/cover;
+  color: rgb(218, 128, 128);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Product Cards */
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-price {
+  color: #ff6347;
+}
