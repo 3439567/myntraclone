@@ -1,14 +1,9 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
 }
-
-/* Navbar Styling */
 .navbar {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Banner Section */
 .banner {
   background: url('assets/images/banner.jpg') no-repeat center center/cover;
   color: rgb(218, 128, 128);
