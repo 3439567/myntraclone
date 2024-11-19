@@ -1,4 +1,3 @@
-// Sample product data
 const products = [
   {
       id: 1,
@@ -19,8 +18,6 @@ const products = [
       image: "assets/images/product3.jpg"
   }
 ];
-
-// Dynamically generate product cards
 const productList = document.getElementById("product-list");
 products.forEach(product => {
   const productCard = `
